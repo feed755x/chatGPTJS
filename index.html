@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat IA Test</title>
+    <script src="scripts/chat.js?v=12"></script>
+    <link rel="stylesheet" type="text/css" href="css/chat.css">
+</head>
+<body>
+
+    <div id="idContainer">
+        <textarea id="txtOutput" rows="10" style="margin-top: 10px; width: 98%;" 
+         placeholder="Waiting for your question"></textarea>
+
+        <div style="display: flex; align-items: center; justify-content: center;">
+
+          <textarea id="txtMsg" rows="2" wrap="soft" style="width: 98%; margin-right: 10px;" placeholder="Send a message"></textarea>
+          
+        <img src="images/ic_send.png" alt="Send" onclick="Send()" style="cursor: pointer; width: 40px; height: 40px;"">
+        </div>
+        
+        <div id="idText"></div>
+
+    </div>
+
+</body>
+</html>
+
